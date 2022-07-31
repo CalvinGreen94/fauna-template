@@ -153,7 +153,7 @@ const Guestbook = ({ fallback }) => {
             Sign the Guestbook
           </h5>
           <p className="my-1 text-gray-800">
-            Share a message for a future visitor.
+//             Share a message for a future visitor.
           </p>
           <EntryForm onSubmit={onSubmit} />
         </div>
