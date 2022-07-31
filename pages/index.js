@@ -129,7 +129,7 @@ const EntryForm = ({ onSubmit: onSubmitProp }) => {
         failed: () => <ErrorMessage>Something went wrong. :(</ErrorMessage>,
 
         submitted: () => (
-          <SuccessMessage>Thanks for signing the guestbook.</SuccessMessage>
+          <SuccessMessage>Your address is now registered to become whitelisted.</SuccessMessage>
         ),
       }[formState]?.()}
     </>
@@ -153,7 +153,6 @@ const Guestbook = ({ fallback }) => {
             Sign the Guestbook
           </h5>
           <p className="my-1 text-gray-800">
-//             Share a message for a future visitor.
           </p>
           <EntryForm onSubmit={onSubmit} />
         </div>
